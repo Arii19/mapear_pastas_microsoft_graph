@@ -1,4 +1,5 @@
 import requests
+import json
 
 def get_access_token(tenant_id, client_id, client_secret):
     url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
@@ -34,6 +35,11 @@ def main():
 
         access_token = get_access_token(tenant_id, client_id, client_secret)
         pastas = listar_pastas_email(access_token, email)
+        print("\nResposta completa da API:")
+        print(json.dumps(pastas, indent=2))
+
+
+
 
         print("\nPastas encontradas:")
         for pasta in pastas:
