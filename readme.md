@@ -17,12 +17,19 @@ Este projeto em Python permite autenticar via Microsoft Graph API usando o fluxo
 - client_secret = "SEU_CLIENT_SECRET"
 - email = "email@dominio.com"
 
-## 🚀 Saída esperada:
+## 📂 Exemplo de pastas Encontradas
 
-Pastas encontradas:
- Nome: Caixa de Entrada | ID: AAMk...
- Nome: Itens Enviados   | ID: AAMk...
- ...
+Lista de pastas de e-mail retornadas pela API:
+
+- **Nome:** Caixa de Entrada  
+  **ID:** AAMk...
+
+- **Nome:** Itens Enviados  
+  **ID:** AAMk...
+
+- **Nome:** ...  
+  **ID:** AAMk...
+
 
 ## 🧰 Requisitos
 
